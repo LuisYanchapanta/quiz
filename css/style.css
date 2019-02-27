@@ -4,14 +4,21 @@
     color: #0f65ef;
     font-weight: bold;
     font-size:15px;
+    background-color: black;
+    border-radius: 20px;
+    border:solid #d4af37;
+    padding: 20px;
 }
 
 .logo {
     width: 125px;
+    height: 25px;
 }
 
 body {
-    background-color: white;
+   background-image:url(https://s3.amazonaws.com/cordillera-network/wp-content/uploads/sites/11/2018/09/26174923/The-Office-logo-.jpg);
+   background-size: 1350px 1050px;
+   color: #d4af37;
 }
 
 .siliconValley {
@@ -26,6 +33,7 @@ body {
 #tomImg {
     border-radius: 50%;
     width: 50px;
+    height:40px;
 }
 
 a {
@@ -34,7 +42,7 @@ a {
 }
 
 #tom {
-    color: grey;
+    color: #d4af37;
 }
 
 .result {
@@ -43,15 +51,32 @@ a {
 
 button {
     margin-top: 10px;
-    color: white;
-    background-color: red;
+    color: Black;
+    background-color: #d4af37;
     font-size: 40px;
     border-radius: 25px;
-    border:3px groove black ;
+    border:3px groove white ;
     font-family: monospace;
+    padding: 10px;
 }
 
 body{
-
     margin-left:20px;
+}
+
+#images{
+    display: flex;
+    justify-content:space-around;
+}
+
+.image{
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+    border:solid #d4af37;
+}
+
+#heading{
+    display:flex;
+    justify-content:center;
 }

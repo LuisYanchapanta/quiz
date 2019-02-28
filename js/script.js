@@ -28,13 +28,13 @@ $(document).ready(function() {
         if (q2Result === "Nothing"){
             return 1;
         }
-        else if (q2Result === "Chasing"){
+        else if (q2Result === "Chase"){
             return 2;
         }
         else if (q2Result === "Embarrass"){
             return 3;
         }
-        else if (q2Result === "Give up everything"){
+        else if (q2Result === "Give"){
             return 4;
         }
     }
@@ -77,6 +77,6 @@ $(document).ready(function() {
          $("#ending").attr("src",imgSrc);
          return "You are Pam !";
      }
-     else return "Wrong Input, Try Again!";
+     else return "Wrong Input, Try Again!( reload page to restart :(  )";
   }
 });
